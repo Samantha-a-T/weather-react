@@ -53,7 +53,7 @@ export default function Weather() {
         </ul>
         <p>
           <a
-            href="//https://github.com/Samantha-a-T/weather-react"
+            href="https://github.com/Samantha-a-T/weather-react"
             target="_blank"
             rel="noreferrer"
           >
@@ -71,7 +71,7 @@ export default function Weather() {
         <br />
         <div className="Weather">
           <a
-            href="//https://github.com/Samantha-a-T/weather-react"
+            href="https://github.com/Samantha-a-T/weather-react"
             target="_blank"
             rel="noreferrer"
           >
