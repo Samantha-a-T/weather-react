@@ -55,6 +55,7 @@ export default function Weather() {
           <a
             href="//https://github.com/Samantha-a-T/weather-react"
             target="_blank"
+            rel="noreferrer"
           >
             open-source code
           </a>
@@ -72,6 +73,7 @@ export default function Weather() {
           <a
             href="//https://github.com/Samantha-a-T/weather-react"
             target="_blank"
+            rel="noreferrer"
           >
             open-source code
           </a>{" "}
