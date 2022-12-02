@@ -11,5 +11,6 @@ root.render(
   <StrictMode>
     <App />
     <Weather />
+
   </StrictMode>
 );

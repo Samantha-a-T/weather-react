@@ -39,7 +39,7 @@ export default function Weather() {
 
   if (loaded) {
     return (
-      <div>
+      <div className="Weather">
         {form}
         <ul>
           <li> {description} </li>
@@ -51,9 +51,33 @@ export default function Weather() {
             alt={description}
           />
         </ul>
+        <p>
+          <a
+            href="//https://github.com/Samantha-a-T/weather-react"
+            target="_blank"
+          >
+            open-source code
+          </a>
+          by Samantha Thibault
+        </p>
       </div>
     );
   } else {
-    return <div>{form}</div>;
+    return (
+      <div>
+        {form}
+        <br />
+        <br />
+        <div className="Weather">
+          <a
+            href="//https://github.com/Samantha-a-T/weather-react"
+            target="_blank"
+          >
+            open-source code
+          </a>{" "}
+          by Samantha Thibault
+        </div>
+      </div>
+    );
   }
 }
