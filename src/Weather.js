@@ -51,34 +51,14 @@ export default function Weather() {
             alt={description}
           />
         </ul>
-        <p>
-          <a
-            href="https://github.com/Samantha-a-T/weather-react"
-            target="_blank"
-            rel="noreferrer"
-          >
-            open-source code
-          </a>
-          by Samantha Thibault
-        </p>
+        
       </div>
     );
   } else {
     return (
       <div>
         {form}
-        <br />
-        <br />
-        <div className="Weather">
-          <a
-            href="https://github.com/Samantha-a-T/weather-react"
-            target="_blank"
-            rel="noreferrer"
-          >
-            open-source code
-          </a>{" "}
-          by Samantha Thibault
-        </div>
+       
       </div>
     );
   }
