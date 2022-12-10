@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./styles.css";
+import "./Weather.css";
 
 export default function Weather() {
   let [description, setDescription] = useState();
@@ -51,15 +51,9 @@ export default function Weather() {
             alt={description}
           />
         </ul>
-        
       </div>
     );
   } else {
-    return (
-      <div>
-        {form}
-       
-      </div>
-    );
+    return <div>{form}</div>;
   }
 }
