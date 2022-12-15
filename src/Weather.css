@@ -4,9 +4,19 @@
     color: #878787;
     padding: 16px;
     border-radius: 5px;
+  background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+
 }
 
-
+.Weather .button{
+    border:1px solid grey;
+    background: rgb(56, 139, 211);
+color: white;
+}
+.Weather .button:hover{
+      background: rgb(43, 107, 163);
+    transition: all 150ms ease-in-out;
+}
 .Weather h1{
     font-size: 24px;
     font-weight: 100;
