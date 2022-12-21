@@ -5,6 +5,6 @@
 .WeatherForecast .WeatherForecast-temperature-max{
 font-weight: 600;
 }
-.WeatherForecast img{
-    width: 90px;
+.WeatherForecast .WeatherForecast-icon{
+ height: 50px;
 }

@@ -19,12 +19,12 @@ export default function WeatherInfo(props){
           <div className="col-6">
             <div className="d-flex">
               <img
-                src={`https://openweathermap.org/img/wn/${props.data.icon}@2x.png`}
+                src={`https://openweathermap.org/img/wn/${props.data.icon}@4x.png`}
                 alt={props.data.description}
-                className="float-start"
+                className="float-start WeatherInfo-image"
               />
               <div className="float-start">
-                <WeatherTemperature celsius={props.data.temperature} /> 
+                <WeatherTemperature celsius={props.data.temperature}/> 
               </div>
             </div>
           </div>

@@ -8,6 +8,7 @@ export default function Weather(props) {
 
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity]= useState(props.defaultCity)
+  
   function handleResponse(response) {
     setWeatherData({
       ready:true,
@@ -18,6 +19,7 @@ export default function Weather(props) {
       city: response.data.name,
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
+      coord: response.data.coord,
     });
   }
 function search(){
@@ -57,7 +59,7 @@ setCity(event.target.value)
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast icon={weatherData.icon}/>
+        <WeatherForecast icon={weatherData.icon} coord={weatherData.coord}/>
       </div>
     );
   } else {

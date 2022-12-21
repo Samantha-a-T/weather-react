@@ -33,10 +33,10 @@ font-weight:100;
 line-height: 19px;
 list-style: none;
 }
-.Weather img{
-    height: 70px;
-    width: 70px;
-    margin-right: 5px;
+.Weather .WeatherInfo-image{
+    height: 100px;
+    width: auto;
+    margin-top: -15px;
     display: inline-block;
 }
 .Weather .temperature{
