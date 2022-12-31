@@ -33,16 +33,12 @@ font-weight:100;
 line-height: 19px;
 list-style: none;
 }
-.Weather .WeatherInfo-image{
-    height: 100px;
-    width: auto;
-    margin-top: -15px;
-    display: inline-block;
-}
+
 .Weather .temperature{
     font-weight: 400;
     font-size: 64px;
     line-height: 64px;
+    margin-left: 15px;
 }
 .Weather .unit{
 font-size: 16px;
