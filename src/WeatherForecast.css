@@ -4,7 +4,8 @@
 
 .WeatherForecast .WeatherForecast-temperature-max{
 font-weight: 600;
+
 }
-.WeatherForecast .WeatherForecast-icon{
- height: 50px;
+.WeatherForecast .WeatherForecast-temperature-min{
+margin-left: 7px;
 }

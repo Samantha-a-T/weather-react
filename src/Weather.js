@@ -58,7 +58,7 @@ setCity(event.target.value)
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast icon={weatherData.icon} coord={weatherData.coord}/>
+        <WeatherForecast coord={weatherData.coord}/>
       </div>
     );
   } else {
