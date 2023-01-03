@@ -7,7 +7,7 @@ export default function App() {
    
         <Weather defaultCity="Calgary" />
         <footer>
-          <a href="https://github.com/Samantha-a-T/weather-react">
+          <a href="https://github.com/Samantha-a-T/weather-react" target="_blank" rel="noopener noreferrer">
             Open-source code by{" "}
           </a>{" "}
           Samantha Thibault
