@@ -6,7 +6,7 @@ import WeatherForecastDay from "./WeatherForecastDay";
 export default function WeatherForecast(props) {
  let [ready, setReady]=useState(false);
  let [forecast, setForecast]=useState(null)
- 
+
 useEffect(() => {
     setReady(false);
 }, [props.coord]);
@@ -29,6 +29,8 @@ setReady(true);
           </div>
               );
 
+            }else{
+                return null;
             }
         })}
           
